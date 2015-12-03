@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:textSize="14sp"
+        android:id="@+id/button"
+        android:text="change padding size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:id="@+id/size_field"
+        android:text="50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <oren.com.inplacecirclecroppertest.CropCircleView
+        android:id="@+id/test1"
+        android:src="@drawable/selector_test"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <ImageView
+        android:id="@+id/test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
